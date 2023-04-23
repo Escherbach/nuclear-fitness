@@ -1,0 +1,221 @@
+The Roots of Progress
+About • Posts • Interviews • Bibliography • Subscribe • Discuss • Patreon • @rootsofprogress
+Why has nuclear power been a flop?
+April 16, 2021 · 18 min read
+
+To fully understand progress, we must contrast it with non-progress. Of particular interest are the technologies that have failed to live up to the promise they seemed to have decades ago. And few technologies have failed more to live up to a greater promise than nuclear power.
+
+In the 1950s, nuclear was the energy of the future. Two generations later, it provides only about 10% of world electricity, and reactor design hasn‘t fundamentally changed in decades. (Even “advanced reactor designs” are based on concepts first tested in the 1960s.)
+
+So as soon as I came across it, I knew I had to read a book just published last year by Jack Devanney: Why Nuclear Power Has Been a Flop.
+
+What follows is my summary of the book—Devanney‘s arguments and conclusions, whether or not I fully agree with them. I‘ll give my own thoughts at the end.
+
+The Gordian knot
+
+There is a great conflict between two of the most pressing problems of our time: poverty and climate change. To avoid global warming, the world needs to massively reduce CO2 emissions. But to end poverty, the world needs massive amounts of energy. In developing economies, every kWh of energy consumed is worth roughly $5 of GDP.
+
+How much energy do we need? Just to give everyone in the world the per-capita energy consumption of Europe (which is only half that of the US), we would need to more than triple world energy production, increasing our current 2.3 TW by over 5 additional TW:
+
+ 
+Devanney Fig 1.3: Regional distribution of electricity consumption
+If we account for population growth, and for the decarbonization of the entire economy (building heating, industrial processes, electric vehicles, synthetic fuels, etc.), we need more like 25 TW:
+
+ 
+Devanney Fig 1.4: Electricity consumption in a decarbonized world
+This is the Gordian knot. Nuclear power is the sword that can cut it: a scalable source of dispatchable (i.e., on-demand), virtually emissions-free energy. It takes up very little land, consumes very little fuel, and produces very little waste. It‘s the technology the world needs to solve both energy poverty and climate change.
+
+So why isn‘t it much bigger? Why hasn‘t it solved the problem already? Why has it been “such a tragic flop?”
+
+Nuclear is expensive but should be cheap
+
+The proximal cause of nuclear‘s flop is that it is expensive. In most places, it can‘t compete with fossil fuels. Natural gas can provide electricity at 7–8 cents/kWh; coal at 5 c/kWh.
+
+Why is nuclear expensive? I‘m a little fuzzy on the economic model, but the answer seems to be that it‘s in design and construction costs for the plants themselves. If you can build a nuclear plant for around $2.50/W, you can sell electricity cheaply, at 3.5–4 c/kWh. But costs in the US are around 2–3x that. (Or they were—costs are so high now that we don‘t even build plants anymore.)
+
+Why are the construction costs high? Well, they weren‘t always high. Through the 1950s and ‘60s, costs were declining rapidly. A law of economics says that costs in an industry tend to follow a power law as a function of production volume: that is, every time production doubles, costs fall by a constant percent (typically 10 to 25%). This function is called the experience curve or the learning curve. Nuclear followed the learning curve up until about 1970, when it inverted and costs started rising:
+
+ 
+Devanney Figure 7.11: USA Unit cost versus capacity. From P. Lang, “Nuclear Power Learning and Deployment Rates: Disruption and Global Benefits Forgone” (2017)
+Plotted over time, with a linear y-axis, the effect is even more dramatic. Devanney calls it the “plume,” as US nuclear constructions costs skyrocketed upwards:
+
+ 
+Devanney Figure 7.10: Overnight nuclear plant cost as a function of start of construction. From J. Lovering, A. Yip, and T. Nordhaus, “Historical construction costs of global nuclear reactors” (2016)
+This chart also shows that South Korea and India were still building cheaply into the 2000s. Elsewhere in the text, Devanney mentions that Korea, as late as 2013, was able to build for about $2.50/W.
+
+The standard story about nuclear costs is that radiation is dangerous, and therefore safety is expensive. The book argues that this is wrong: nuclear can be made safe and cheap. It should be 3 c/kWh—cheaper than coal.
+
+Safety
+
+Fundamental to the issues of safety is the question: what amount of radiation is harmful?
+
+Very high doses of radiation can cause burns and sickness. But in nuclear power safety, we‘re usually talking about much lower doses. The concern with lower doses is increased long-term cancer risk. Radiation can damage DNA, potentially creating cancerous cells.
+
+But wait: we‘re exposed to radiation all the time. It occurs naturally in the environment—from sand and stone, from altitude, even from bananas (which contain radioactive potassium). So it can‘t be that even the tiniest amount of radiation is a mortal threat.
+
+How, then, does cancer risk relate to the dose of radiation received? Does it make a difference if the radiation hits you all at once, vs. being spread out over a longer period? And is there anything like a “safe” dose, any threshold below which there is no risk?
+
+Linear No Threshold
+
+The official model guiding US government policy, both at the EPA and the Nuclear Regulatory Commission (NRC), is the Linear No Threshold model (LNT). LNT says that cancer risk is directly proportional to dose, that doses are cumulative over time (rate doesn‘t matter), and that there is no threshold or safe dose.
+
+The problem with LNT is that it flies in the face of both evidence and theory.
+
+First, theory. We know that cells have repair mechanisms to fix broken DNA. DNA gets broken all the time, and not just from radiation. And remember, there is natural background radiation from the environment. If cells weren‘t able repair DNA, life would not have survived and evolved on this planet.
+
+When DNA breaks, it migrates to special “repair centers” within the cell, which put the strands back together within hours. However, this is a highly non-linear process: these centers can correctly repair breaks at a certain rate, but as the break rate increases, the error rate of the repair process goes up drastically. This also implies that dose rate matters: a given amount of radiation is more harmful if received all at once, and less if spread out over time. (In both of these details, I think of this as analogous to alcohol being processed out of the bloodstream by the liver: a low dose can be handled; but overwhelm the system and it quickly becomes toxic. One beer a night for a month might not even get you tipsy; the same amount in a single night would kill you.)
+
+Radiotherapy takes advantage of this. When radiotherapy is applied to tumors, non-linear effects allow doctors to do much more damage to the tumor than to surrounding tissue. And doses of therapy are spread out over multiple days, to give the patient time to recover.
+
+Devanney also assembles a variety of types of evidence about radiation damage from a range of sources. Indeed, his argument against LNT is by far the longest chapter in the book, weighing in at over 50 pages (out of fewer than 200). He looks at studies of:
+
+The nuclear bomb survivors of Hiroshima and Nagasaki
+The effects of radon gas
+Animal experiments in beagles and mice
+UK radiologists (tracked over 100 years)
+Radiation workers across fifteen countries
+Nuclear shipyard workers (using a closely matched control group of non-nuclear workers in the same yards)
+Areas with naturally high levels of background radiation from sources such as thorium-containing sand or radon: Finland; Ramsar, Iran; Guarapari, Brazil; Yangjiang, China; and Kerala, India
+The population of Washington County, Utah, 200 miles downwind of a nuclear test site in Nevada that was used in the 1950s
+The Chernobyl cleanup crew, including the guys who had to shovel chunks of core graphite off the roof of one of the buildings and toss them into the gaping hole from the explosion
+An incident in Taipei in which an apartment was accidentally built with rebar containing radioactive cobalt-60
+The women who hand-painted radium onto watch dials in the early 20th century (some of whom would lick the brushes to form a point)
+A 1950 trial that violated every conceivable standard of medical ethics by injecting unknowing and non-consenting patients with plutonium
+In the last case, all of the patients had been diagnosed with terminal disease. None of them died from the plutonium—including one patient, Albert Stevens, who had been misdiagnosed with terminal stomach cancer that turned out to be an operable ulcer. He lived for more than twenty years after the experiment, over which time he received a cumulative dose of 64 sieverts, one-tenth of which would have killed him if received all at once. He died from heart failure at the age of 79.
+
+The weight of all of this evidence is that low doses of radiation do not cause detectable harm. Little to no cancer, or at least far less than predicted by LNT, is found in the subjects receiving low doses, such as workers operating under modern safety standards, or populations in high-background areas (in fact, there is some evidence of a beneficial effect from very low doses, although nothing in Devanney‘s overall argument depends on this, nor does he stress it). In populations where some subjects did receive high doses, the response curves tend to look decidedly non-linear.
+
+The other finding from these studies is that dose rate matters. This was the explicit finding of an MIT study in mice, and it is the unmistakeable conclusion of the case of Albert Stevens, who lived over two decades with plutonium in his bloodstream.
+
+(At least, all this is Devanney‘s interpretation—it is not always the conclusion written in the papers. Devanney argues, not unconvincingly, that in many cases the researchers‘ conclusions are not supported by their own data.)
+
+ALARA
+
+Excessive concern about low levels of radiation led to a regulatory standard known as ALARA: As Low As Reasonably Achievable. What defines “reasonable”? It is an ever-tightening standard. As long as the costs of nuclear plant construction and operation are in the ballpark of other modes of power, then they are reasonable.
+
+This might seem like a sensible approach, until you realize that it eliminates, by definition, any chance for nuclear power to be cheaper than its competition. Nuclear can‘t even innovate its way out of this predicament: under ALARA, any technology, any operational improvement, anything that reduces costs, simply gives the regulator more room and more excuse to push for more stringent safety requirements, until the cost once again rises to make nuclear just a bit more expensive than everything else. Actually, it‘s worse than that: it essentially says that if nuclear becomes cheap, then the regulators have not done their job.
+
+What kinds of inefficiency resulted?
+
+An example was a prohibition against multiplexing, resulting in thousands of sensor wires leading to a large space called a cable spreading room. Multiplexing would have cut the number of wires by orders of magnitude while at the same time providing better safety by multiple, redundant paths.
+
+A plant that required 670,000 yards of cable in 1973 required almost double that, 1,267,000, by 1978, whereas “the cabling requirement should have been dropping precipitously” given progress at the time in digital technology.
+
+Another example was the acceptance in 1972 of the Double-Ended-Guillotine-Break of the primary loop piping as a credible failure. In this scenario, a section of the piping instantaneously disappears. Steel cannot fail in this manner. As usual Ted Rockwell put it best, “We can’t simulate instantaneous double ended breaks because things don’t break that way.” Designing to handle this impossible casualty imposed very severe requirements on pipe whip restraints, spray shields, sizing of Emergency Core Cooling Systems, emergency diesel start up times, etc., requirements so severe that it pushed the designers into using developmental, unrobust technology. A far more reliable approach is Leak Before Break by which the designer ensures that a stable crack will penetrate the piping before larger scale failure.
+
+Or take this example (quoted from T. Rockwell, “What’s wrong with being cautious?”):
+
+A forklift at the Idaho National Engineering Laboratory moved a small spent fuel cask from the storage pool to the hot cell. The cask had not been properly drained and some pool water was dribbled onto the blacktop along the way. Despite the fact that some characters had taken a midnight swim in such a pool in the days when I used to visit there and were none the worse for it, storage pool water is defined as a hazardous contaminant. It was deemed necessary therefore to dig up the entire path of the forklift, creating a trench two feet wide by a half mile long that was dubbed Toomer’s Creek, after the unfortunate worker whose job it was to ensure that the cask was fully drained.
+
+The Bannock Paving Company was hired to repave the entire road. Bannock used slag from the local phosphate plants as aggregate in the blacktop, which had proved to be highly satisfactory in many of the roads in the Pocatello, Idaho area. After the job was complete, it was learned that the aggregate was naturally high in thorium, and was more radioactive that the material that had been dug up, marked with the dreaded radiation symbol, and hauled away for expensive, long-term burial.
+
+The Gold Standard
+
+Overcautious regulation interacted with economic history in a particular way in the mid–20th century that played out very badly for the nuclear industry.
+
+Nuclear engineering was born with the Manhattan Project during WW2. Nuclear power was initially adopted by the Navy. Until the Atomic Energy Act of 1954, all nuclear technology was the legal monopoly of the US government.
+
+In the ‘50s and ‘60s, the nuclear industry began to grow. But it was competing with extremely abundant and cheap fossil fuels, a mature and established technology. Amazingly, the nuclear industry was not killed by this intense competition—evidence of the extreme promise of nuclear.
+
+Then came the oil shocks of the ‘70s. Between 1969 and 1973, oil prices tripled to $11/barrel. This should have been nuclear‘s moment! And indeed, there was a boom in both coal and nuclear.
+
+But as supply expands to meet demand, costs rise to meet prices. The costs of both coal and nuclear rose. In the coal power industry, this took the form of more expensive coal from marginal mines, higher wages paid to labor who now had more bargaining power, etc. In the nuclear industry, it took the form of ever more stringent regulation, and the formal adoption of ALARA. Prices were high, so the pressure was on to get construction approved as quickly as possible, regardless of cost. Nuclear companies stopped pushing back on the regulators and started agreeing to anything in order to move the process along. The regulatory regime that resulted is now known as the Gold Standard.
+
+The difference between the industries is that the cost rises in coal could, and did, reverse as prices came down. But regulation is a ratchet. It goes in one direction. Once a regulation is in place, it‘s very difficult to undo.
+
+Even worse was the practice of “backfitting”:
+
+The new rules would be imposed on plants already under construction. A 1974 study by the General Accountability Office of the Sequoyah plant documented 23 changes “where a structure or component had to be torn out and rebuilt or added because of required changes.” The Sequoyah plant began construction in 1968, with a scheduled completion date of 1973 at a cost of $300 million. It actually went into operation in 1981 and cost $1700 million. This was a typical experience.
+
+Bottom line: Ever since the ‘70s, nuclear has been stuck with burdensome regulation and high prices—to the point where it‘s now accepted that nuclear is inherently expensive.
+
+Regulator incentives
+
+The individuals who work at NRC are not anti-nuclear. They are strongly pro-nuclear—that‘s why they went to work for a nuclear agency in the first place. But they are captive to institutional logic and to their incentive structure.
+
+The NRC does not have a mandate to increase nuclear power, nor any goals based on its growth. They get no credit for approving new plants. But they do own any problems. For the regulator, there‘s no upside, only downside. No wonder they delay.
+
+Further, the NRC does not benefit when power plants come online. Their budget does not increase proportional to gigawatts generated. Instead, the nuclear companies themselves pay the NRC for the time they spend reviewing applications, at something close to $300 an hour. This creates a perverse incentive: the more overhead, the more delays, the more revenue for the agency.
+
+The result: the NRC approval process now takes several years and costs literally hundreds of millions of dollars.
+
+The Big Lie
+
+Devanney puts a significant amount of blame on the regulators, but he also lays plenty at the feet of industry.
+
+The irrational fear of very low doses of radiation leads to the idea that any reactor core damage, leading to any level whatsoever of radiation release, would be a major public health hazard. This has led the entire nuclear complex to foist upon the public a huge lie: that such a release is virtually impossible and will never happen, or with a frequency of less than one in a million reactor-years.
+
+In reality, we‘ve seen three major disasters—Chernobyl, Three Mile Island, and Fukushima—in less than 15,000 reactor-years of operation worldwide. We should expect about one accident per 3,000 reactor-years going forward, not one per million. If nuclear power were providing most of the world‘s electricity, there would be an accident every few years.
+
+Instead of selling a lie that a radiation release is impossible, the industry should communicate the truth: releases are rare, but they will happen; and they are bad, but not unthinkably bad. The deaths from Chernobyl, 35 years ago, were due to unforgivably bad reactor design that we‘ve advanced far beyond now. There were zero deaths from radiation at Three Mile Island or at Fukushima. (The only deaths from the Fukushima disaster were caused by the unnecessary evacuation of 160,000 people, including seniors in nursing homes.)
+
+In contrast, consider aviation: An airplane crash is a tragedy. It kills hundreds of people. The public accepts this risk not only because of the value of flying, but because these crashes are rare. And further, because the airline industry does not lie about the risk of crashes. Rather than saying “a crash will never happen,” they put data-collecting devices on every plane so that when one inevitably does crash, they can learn from it and improve. This is a healthy attitude towards risk that the nuclear industry should emulate.
+
+Testing
+
+Another criticism the book makes of the industry is its approach to QA and the general lack of testing.
+
+Many questions arise during NRC design review: how a plant will handle the failure of this valve or that pump, etc. A natural way to answer these questions would be to build a reactor and test it, and for the design application to be based in large part on data from actual tests. For instance, one advanced reactor design comes from NuScale:
+
+NuScale is not really a new technology, just a scaled down Pressurized Water Reactor; but the scale down allows them to rely on natural circulation to handle the decay heat. No AC power is required to do this. The design also uses boron, a neutron absorber, in the cooling water to control the reactivity. The Advisory Committee on Reactor Safeguards (ACRS), an independent government body, is concerned that in emergency cooling mode some of the boron will not be recirculated into the core, and that could allow the core to restart. NuScale offers computer analyses that they claim show this will not happen. ACRS and others remain unconvinced.
+
+The solution is simple. Build one and test it. But under NRC rules, you cannot build even a test reactor without a license, and you can’t get a license until all such questions are resolved.
+
+Instead, a lot of analysis is done by building models. In particular, NRC relies on a method called Probabilistic Risk Assessment: enumerate all possible causes of a meltdown, and all the events that might lead up to them, and assign a probability to each branch of each path. In theory, this lets you calculate the frequency of meltdowns. However, this method suffers from all the problems of any highly complex model based on little empirical data: it‘s impossible to predict all the things that might go wrong, or to assign anything like accurate probabilities even to the scenarios you do dream up:
+
+In March, 1975, a workman accidentally set fire to the sensor and control cables at the Browns Ferry Plant in Alabama. He was using a candle to check the polyurethane foam seal that he had applied to the opening where the cables entered the spreading room. The foam caught fire and this spread to the insulation. The whole thing got out of control and the plant was shut down for a year for repairs. Are we to blame the PRA analysts for not including this event in their fault tree? (If they did, what should they use for the probability?)
+
+In practice, different teams using the same method come up with answers that are orders of magnitude apart, and what result to accept is a matter of negotiation. Probabilistic models were used in the past to estimate that reactors would have a core damage frequency of less than one in a million years. They were wrong.
+
+Later, during construction, a similar issue arises. The standard in the industry is to use “formal QA” processes that amount to paperwork and box-checking, a focus on following bureaucratic rules rather than producing reliable outcomes. Devanney saw the same mentality in US Navy shipyards, which produced billion-dollar ships that don‘t even work. Instead, the industry should be more like the Korean shipyards, which are able to deliver reliably on schedule, with higher quality and lower cost. They do this by inspecting the work product, rather than the process used to create it: “test the weld, not the welder.” And they require formal guarantees (such as warranties) of meeting a rigorous spec given up front.
+
+Competition
+
+Finally, Devanney laments the lack of real competition in the market. He paints the industry as a set of bloated incumbents and government labs, all “feeding at the public trough.” For instance:
+
+One the biggest labs is Argonne outside Chicago. At Argonne, they monitor people going in and out of some of the buildings for radiation contamination. The alarms are set so low that, if it’s raining, in coming people must wipe off their shoes after they walk across the wet parking lot. And you can still set off the alarm, which means everything comes to the halt while you wait for the Health Physics monitor to show up, wand you down, and pronounce you OK to come in. What has happened is that the rain has washed some of the naturally occurring radon daughters out of the air, and a few of these mostly alpha articles have stuck to your shoes. In other words, Argonne is monitoring rain water.
+
+Nuclear incumbents aren‘t upset that billions of dollars are thrown away on waste disposal and unnecessary cleanup projects—they are getting those contracts. For instance, 8,000 people are employed in cleanup at Hanford, Washington, costing $2.5B a year, even though the level of radiation is only a few mSv/year, well within the range of normal background radiation.
+
+What to do?
+
+Devanney has a practical alternative for everything he criticizes. Here are the ones that stood out to me as most important:
+
+Replace LNT with a model that more closely matches both theory and evidence. As one workable alternative, he suggests using a sigmoid, or S-curve, instead of a linear fit, in a model he calls Sigmoid No Threshold. In this model, risk is monotonic with dose (there are no beneficial effects at low doses) and it is nonzero for every nonzero dose (there is no “perfectly safe” dose). But the risk is orders of magnitude lower than LNT at low doses. S-curves are standard for dose-response models in other areas.
+
+Drop ALARA. Replace it with firm limits: choose a threshold of radiation deemed safe; enforce that limit and nothing more. Further, these limits should balance risk vs. benefit, recognizing that nuclear is an alternative to other modes of power, including fossil fuels, that have their own health impacts.
+
+Encourage incident reporting, on the model of the FAA‘s Aviation Safety Reporting System. This system enables anonymous reports, and in case of accidental rule violations, it treats workers more leniently if they can show that they proactively reported the incident.
+
+Enable testing. Don‘t regulate test reactors like production ones. Rather than requiring licensing up front, have testing monitored by a regulator, who has the power to shut down test reactors deemed unsafe. Then, a design can be licensed for production based on real data from actual tests, instead of theoretical models.
+
+We could even designate a federal nuclear testing park, the “Protopark,” in an unpopulated region. The park would be funded by rent from tenants, so that the market, rather than the government, would decide who uses it. Tenants would have to obtain insurance, which would force a certain level of safety discipline.
+
+Align regulator incentives with the industry. Instead of an hourly fee for regulatory review, fund the NRC by a tax on each kilowatt-hour of nuclear electricity, giving them a stake in the outcome and the growth of the industry.
+
+Allow arbitration of regulation. Regulators today have absolute power. There should be an appeals process by which disputes can be taken to a panel of arbitrators, to decide whether regulatory action is consistent with the law. City police are held accountable for their use and abuse of power; the nuclear police should be too.
+
+Metanoeite
+
+At the end of the day, though, what is needed is not a few reforms, but “metanoiete”: a deep repentance, a change to the industry‘s entire way of thinking. Devanney is not optimistic that this will happen in the US or any wealthy country; they‘re too comfortable and too able to fund fantasies of “100% renewables.” Instead, he thinks the best prospect for nuclear is a poor country with a strong need for cheap, clean power. (I assume that‘s why his company, ThorCon, is building its thorium-fueled molten salt reactor in Indonesia.)
+
+Again, all of the above is Devanney‘s analysis and conclusions, not necessarily mine. What to make of all this?
+
+I‘m still early in my research on this topic, so I don‘t yet know enough to fully evaluate it. But the arguments are compelling to me. Devanney quantifies his arguments where possible and cites references for his claims. He places blame on systems and incentives rather than on evil or stupid individuals. And he offers reasonable, practical alternatives.
+
+I would have liked to see the nuclear economic model made more explicit. How much of the cost of electricity is the capital cost of the plant, vs. operating costs, vs. fuel? How much is financing, and how sensitive is this to construction times and interest rates? Etc.
+
+A few important topics were not addressed. One is weapons proliferation. Another is the role of the utility companies and the structure of the power industry. Electricity utilities are often regulated monopolies. At least some of them, I believe, have a profit margin that is guaranteed by law. (!) That seems like an important element in the lack of competition and perverse incentive structure.
+
+I would be interested in hearing thoughtful counterarguments to the book’s arguments. But overall, Why Nuclear Power Has Been a Flop pulls together academic research, industry anecdotes, and personal experience into a cogent narrative that pulls no punches. Well worth reading. Buy the paperback on Amazon, or download a revised and updated PDF edition for free.
+
+Comment on Reddit or debate me on Letter.
+
+Social media link image credit: Wikimedia / Benoit Brummer
+
+« Highlights from The Autobiography of Andrew CarnegieInterview: Futurati Podcast with Thomas Frey and Trent Fowler »
+Get posts by email:     
+ 
+Copyright © Jason Crawford. Some rights reserved: CC BY-ND 4.0
+
+
